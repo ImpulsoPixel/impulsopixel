@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="absolute top-0 left-0 w-full h-screen z-[-1]">
         <Image
-          src="/pruebas/estamos-trabajando-impulsopixel.jpeg"
+          src="/pruebas/nuevatrabajando.png"
           alt="Estamos trabajando"
           fill
           quality={100}

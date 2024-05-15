@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.absolute.top-0.left-0.w-full.h-screen.z-\[-1\] {
+  background-color: #f0f0f0;
+  /* Color de fondo mientras carga la imagen */
+}

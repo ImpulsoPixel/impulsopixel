@@ -1,36 +1,60 @@
 .hero {
-    background-image: url('/images/hero-background.jpg');
-    /* Imagen de fondo */
+    background-image: url('/path-to-your-background-image.jpg');
+    /* Ruta a la imagen de fondo si la tienes */
     background-size: cover;
     background-position: center;
-    padding: 100px 0;
-    /* Espaciado interno */
-    text-align: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.title {
-    font-size: 3rem;
-    color: white;
-    /* Ejemplo de color de texto */
-}
-
-.subtitle {
-    font-size: 1.5rem;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.cta {
-    background-color: #ff5722;
-    /* Ejemplo de color de botón */
-    color: white;
+.button {
     padding: 10px 20px;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
+    border-radius: 9999px;
+    /* Rounded-full */
+    font-size: 1rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+.primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #45a049;
+}
+
+.secondary {
+    background-color: transparent;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+
+.secondary:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 25%;
+    background: #333;
+    /* O la imagen que necesitas */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: -1;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    height: 25%;
+    background: #28a745;
+    /* O la imagen que necesitas */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    z-index: -1;
 }

@@ -1,0 +1,36 @@
+.hero {
+    background-image: url('/images/hero-background.jpg');
+    /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    /* Espaciado interno */
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+    /* Ejemplo de color de texto */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-color: #ff5722;
+    /* Ejemplo de color de botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

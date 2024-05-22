@@ -13,3 +13,22 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #f8f9fa;
 }
+
+
+@font-face {
+  font-family: 'Robot Crush';
+  src: url('/fonts/robotcrush/RobotCrush.ttf') format('truetype'),
+    url('/fonts/robotcrush/RobotCrush.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Robot Crush Italic';
+  src: url('/fonts/robotcrush/RobotCrushItalic.ttf') format('truetype'),
+    url('/fonts/robotcrush/RobotCrushItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

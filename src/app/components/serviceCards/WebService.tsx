@@ -1,11 +1,15 @@
-'use client'
-
-
-// components/ServiceCard.js
 import Image from 'next/image';
 import React from 'react';
 
-const WebServiceCard = ({ title, description, imageUrl, buttonText }) => {
+// Definimos una interfaz para las props
+interface WebServiceCardProps {
+    title: string;
+    description: string;
+    imageUrl: string;
+    buttonText: string;
+}
+
+const WebServiceCard: React.FC<WebServiceCardProps> = ({ title, description, imageUrl, buttonText }) => {
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white m-4">
             <Image src={imageUrl} alt={title} width={400} height={250} className="object-cover" />

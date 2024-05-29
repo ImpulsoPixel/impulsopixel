@@ -2,9 +2,9 @@
 
 // pages/NuestrosServicios.js
 import React from 'react';
-import AppServiceCard from '../../serviceCards/AppService';
-import MovilServiceCard from '../../serviceCards/MovilService';
-import WebServiceCard from '../../serviceCards/WebService';
+import AppServiceCard from '../components/serviceCards/AppService';
+import MovilServiceCard from '../components/serviceCards/MovilService';
+import WebServiceCard from '../components/serviceCards/WebService';
 
 const NuestrosServicios = () => {
     return (

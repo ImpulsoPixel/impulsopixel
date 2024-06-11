@@ -1,9 +1,15 @@
 .hero {
     background-image: url('/path-to-your-background-image.jpg');
-    /* Ruta a la imagen de fondo si la tienes */
     background-size: cover;
     background-position: center;
+   
 }
+
+.title {
+    font-family: 'Robot Crush', sans-serif;
+}
+
+
 
 .button {
     padding: 10px 20px; 

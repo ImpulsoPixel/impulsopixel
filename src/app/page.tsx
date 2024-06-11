@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Hero from './components/hero/Hero';
 import './globals.css';
-import NuestrosServicios from './nuestrosServicios/NuestrosServicios';
+import NuestrosServicios from './components/nuestrosServicios/NuestrosServicios';
 
 
 export default function Home() {

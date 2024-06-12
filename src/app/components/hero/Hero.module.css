@@ -42,3 +42,21 @@
     background-color: #4CAF50;
     color: white;
 }
+
+.topLeftCorner {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottomLeftCorner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottomRightCorner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,12 +1,22 @@
 .hero {
+  
+    margin-top: 177px ;
+    left: -2px;
     background-image: url('/path-to-your-background-image.jpg');
-    /* Ruta a la imagen de fondo si la tienes */
     background-size: cover;
     background-position: center;
+
+   
 }
 
+.title {
+    font-family: 'Robot Crush', sans-serif;
+}
+
+
+
 .button {
-    padding: 10px 20px;
+    padding: 10px 20px; 
     border-radius: 9999px;
     /* Rounded-full */
     font-size: 1rem;
@@ -33,28 +43,20 @@
     color: white;
 }
 
-.hero::before {
-    content: '';
+.topLeftCorner {
     position: absolute;
     top: 0;
     left: 0;
-    width: 25%;
-    height: 25%;
-    background: #333;
-    /* O la imagen que necesitas */
-    clip-path: polygon(0 0, 100% 0, 0 100%);
-    z-index: -1;
 }
 
-.hero::after {
-    content: '';
+.bottomLeftCorner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottomRightCorner {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 25%;
-    height: 25%;
-    background: #28a745;
-    /* O la imagen que necesitas */
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
-    z-index: -1;
 }

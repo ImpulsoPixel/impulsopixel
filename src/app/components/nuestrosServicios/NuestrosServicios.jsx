@@ -5,12 +5,14 @@ import React from 'react';
 import AppServiceCard from '../serviceCards/AppService';
 import MovilServiceCard from '../serviceCards/MovilService';
 import WebServiceCard from '../serviceCards/WebService';
+import styles from './Servicios.module.css';
 
 const NuestrosServicios = () => {
     return (
-        <div className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-8">Nuestros Servicios</h1>
-            <div className="flex flex-wrap -m-4">
+        <div className={styles.services}>
+        <div className="container mx-auto p-4 ">
+            <h1 className="text-3xl font-bold mb-8 text-center">Nuestros Servicios</h1>
+            <div className="flex flex-col">
                 <WebServiceCard
                     title="Desarrollo Web"
                     description="¡Haz que tu presencia en línea destaque con nuestro desarrollo web personalizado! En Impulso Pixel,
@@ -46,6 +48,7 @@ const NuestrosServicios = () => {
                 />
                 {/* Puedes seguir añadiendo más tarjetas de servicios aquí */}
             </div>
+        </div>
         </div>
     );
 };

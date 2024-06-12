@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Hero.module.css';
-import FigureGrey from './figures/figureGrey';
+import FigureGrey from '../hero/figures/FigureGrey';
 import FigureBlue from './figures/FigureBlue';
 import FigureGreen from './figures/FigureGreen';
 

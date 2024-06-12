@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    width: 300px;
+    height: 300px;
+    gap: 0;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.gray {
+    background-color: #8D8F93;
+}
+
+.darkGray {
+    background-color: #333333;
+}
+
+.black {
+    background-color: #000000;
+}
+
+/* Posiciona los cuadrados en la cuadrícula */
+.square:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.square:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.square:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.square:nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.square:nth-child(5) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.square:nth-child(6) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}

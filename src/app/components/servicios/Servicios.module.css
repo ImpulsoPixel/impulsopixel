@@ -1,0 +1,425 @@
+.Servicios {
+	/* Estilos del título principal */
+	font-size: 3rem; /* Tamaño de fuente grande */
+	color: #333; /* Color de fuente oscuro */
+	margin-bottom: 5rem; /* Espacio inferior */
+	height: auto;
+}
+
+.containertitle {
+	width: 100%;
+}
+
+.subtitle {
+	width: 100%;
+	font-weight: 500;
+	background-color: #4caf50; /* Similar color to the green in the image */
+	color: #fff;
+	padding: 5px 3px;
+	font-size: 20px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.psubtitle {
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+	width: 70%;
+}
+
+.card {
+	/* Estilos de las tarjetas de precios */
+	background-color: #ffffff; /* Color de fondo blanco */
+	border-radius: 20px; /* Bordes redondeados */
+	box-shadow: 0 2px 4px rgba(5, 5, 5, 0.1); /* Sombra suave */
+	padding: 4rem; /* Espacio interno */
+	text-align: center; /* Texto centrado */
+}
+
+.button {
+	/* Estilos de los botones */
+	display: inline-block; /* Para que se puedan colocar en línea */
+	padding: 1rem 0.9rem; /* Espacio interno */
+	border-radius: 100px; /* Bordes redondeados */
+	font-weight: bold; /* Peso de fuente bold */
+	text-decoration: none; /* Quitar subrayado */
+	transition: background-color 0.3s ease; /* Transición suave */
+	margin-top: 1rem; /* Espacio superior */
+}
+
+.primary {
+	/* Estilos del botón primario */
+	background-color: #007bff; /* Color de fondo azul */
+	color: #fff; /* Color de fuente blanco */
+}
+
+.primary:hover {
+	/* Efecto hover para el botón primario */
+	background-color: #0069d9; /* Color de fondo azul más oscuro */
+}
+
+/* Estilos para la sección de planes */
+.plans {
+	display: flex; /* Distribuir los planes en una fila */
+	justify-content: space-between; /* Espacio entre los planes */
+	flex-wrap: wrap; /* Wrap para que los planes se ajusten a diferentes tamaños de pantalla */
+	margin-top: 2rem; /* Espacio superior */
+}
+
+.plan {
+	/* Estilos para cada plan */
+	width: 30%; /* Ancho del plan */
+	min-width: 250px; /* Ancho mínimo para que los planes se vean bien en pantallas pequeñas */
+	margin-bottom: 2rem; /* Espacio inferior */
+}
+
+.buttontittle {
+	color: red;
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: left;
+	font-weight: 600;
+}
+
+.planBasico {
+	background-color: #f9f9f9;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.696);
+	padding: 0.2rem; /* Espacio interno */
+	width: 300px;
+	margin: 0 auto;
+}
+
+.planBasico .planName {
+	font-size: 24px;
+	font-weight: bold;
+	color: #4caf50;
+	margin-bottom: 10px;
+}
+
+.planBasico .card2 {
+	font-size: 18px;
+	height: 90%;
+	border-radius: 20px;
+}
+
+.planBasico .price {
+	font-size: 18px;
+	color: #000000;
+	font-size: larger;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.planBasico .price2 {
+	font-size: 18px;
+	color: #dc3545;
+	font-weight: 600;
+}
+
+.planBasico .features {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.planBasico .features li {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.planBasico .features li::before {
+	content: "→ ";
+	color: #4caf50; /* Similar color to the green in the image */
+}
+
+.planBasico .button {
+	background-color: #4caf50; /* Similar color to the green in the image */
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.planBasico .button:hover {
+	background-color: #0056b3; /* Slightly darker green on hover */
+}
+
+.planCompleto {
+	background-color: #4caf50;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.696);
+	border-radius: 20px;
+	padding: 0.2rem; /* Espacio interno */
+	width: 300px;
+	margin: 0 auto;
+}
+
+.planCompleto {
+	background-color: #f9f9f9;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.696);
+	padding: 0.2rem; /* Espacio interno */
+	width: 300px;
+	margin: 0 auto;
+}
+
+.planCompleto .planName {
+	font-size: 24px;
+	font-weight: bold;
+	color: #4caf50;
+	margin-bottom: 10px;
+}
+
+.planCompleto .card2 {
+	font-size: 18px;
+	height: 90%;
+	border-radius: 20px;
+}
+
+.planCompleto .price {
+	font-size: 18px;
+	color: #000000;
+	font-size: larger;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.planCompleto .price2 {
+	font-size: 18px;
+	color: #dc3545;
+	font-weight: 600;
+}
+
+.planCompleto .features {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.planCompleto .features li {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.planCompleto .features li::before {
+	content: "→ ";
+	color: #4caf50; /* Similar color to the green in the image */
+}
+
+.planCompleto .button {
+	background-color: #4caf50; /* Similar color to the green in the image */
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.planCompleto .button:hover {
+	background-color: #0056b3; /* Slightly darker green on hover */
+}
+
+.titlecard {
+	color: red;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.planPlus {
+	background-color: #4caf50;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.696);
+	border-radius: 20px;
+	padding: 0.1rem; /* Espacio interno */
+	width: 300px;
+	margin: 0 auto;
+}
+
+.planPlus .planName1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.planPlus .card2 {
+	font-size: 18px;
+	color: #dc3545; /* Similar color to the red in the image */
+	background-color: #ffffff;
+	border: 1px solid green;
+	height: 90%;
+	border-radius: 20px;
+}
+
+.planPlus .price {
+	font-size: 18px;
+	color: #000000;
+	font-size: larger;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.planPlus .price2 {
+	font-size: 18px;
+	color: #dc3545;
+	font-weight: 600;
+}
+
+.planPlus .features {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.planPlus .features li {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.planPlus .features li::before {
+	content: "→ ";
+	color: #007bff; /* Similar color to the green in the image */
+}
+
+.planPlus .button {
+	background-color: #007bff; /* Similar color to the green in the image */
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.planPlus .button:hover {
+	background-color: #0056b3; /* Slightly darker green on hover */
+}
+
+.cardcontainer {
+	/* Estilos de las tarjetas de precios */
+	background-color: #ffffff; /* Color de fondo blanco */
+	padding: 2rem; /* Espacio interno */
+	text-align: center; /* Texto centrado */
+	width: auto;
+}
+
+.CardAPP {
+	background-color: #0056b3;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.696);
+	border-radius: 20px;
+	padding: 0.1rem; /* Espacio interno */
+	width: auto;
+	height: 400px;
+	margin: 0 auto;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.CardAPP .planName1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 10px;
+	width: auto;
+}
+
+.CardAPP .card2 {
+	font-size: 18px;
+	color: #000000; /* Similar color to the red in the image */
+	background-color: #ffffff;
+	border: 1px solid rgb(0, 0, 0);
+	height: 88%;
+	border-radius: 20px;
+	width: auto;
+}
+
+.CardAPP .textcard {
+
+	text-align: center;
+	padding: 50px;
+
+}
+
+.CardAPP .button {
+	background-color: #007bff; /* Similar color to the green in the image */
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	width: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.CardAPP .button:hover {
+	background-color: #0056b3; /* Slightly darker green on hover */
+}
+
+
+.CardAPP2 {
+	background-color: #333333;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.696);
+	border-radius: 20px;
+	padding: 0.1rem; /* Espacio interno */
+	width: auto;
+	height: 400px;
+	margin: 0 auto;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.CardAPP2 .planName1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 10px;
+	width: auto;
+}
+
+.CardAPP2 .card2 {
+	font-size: 18px;
+	color: #333333; /* Similar color to the red in the image */
+	background-color: #ffffff;
+	border: 1px solid rgb(0, 0, 0);
+	height: 88%;
+	border-radius: 20px;
+	width: auto;
+}
+
+.CardAPP2 .textcard {
+
+	text-align: center;
+	padding: 50px;
+
+}
+
+.CardAPP2 .button {
+	background-color: #333333; /* Similar color to the green in the image */
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	width: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.CardAPP2 .button:hover {
+	background-color: #0056b3; /* Slightly darker green on hover */
+}

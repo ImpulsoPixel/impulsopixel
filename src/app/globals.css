@@ -10,10 +10,9 @@ body {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #f8f9fa;
+  font-family: 'Inter', montserrat;
+  background-color: #ffffff;
 }
-
 
 @font-face {
   font-family: 'Robot Crush';
@@ -31,4 +30,5 @@ body {
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-}
+} 
+
